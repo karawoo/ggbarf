@@ -22,8 +22,7 @@ set.seed(123)
 dat <- data.frame(x = sample(letters[1:3], 6, replace = TRUE))
 
 ggplot(dat, aes(x)) +
-  geom_barf() +
-  theme_minimal()
+  geom_barf()
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />

@@ -8,8 +8,7 @@
 #' dat <- data.frame(x = sample(letters[1:3], 6, replace = TRUE))
 #'
 #' ggplot(dat, aes(x)) +
-#'   geom_barf() +
-#'   theme_minimal()
+#'   geom_barf()
 #'
 #' @export
 geom_barf <- function(mapping = NULL, data = NULL,
