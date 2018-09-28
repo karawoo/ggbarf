@@ -50,7 +50,7 @@ geom_barf <- function(mapping = NULL, data = NULL,
 GeomBarf <- ggproto("GeomBarf", GeomIsotypeBar,
   default_aes = aes(
     colour = NA, fill = NA, size = 0.5, linetype = 1, alpha = NA,
-    hjust = 0.5, vjust = 0, image = "https://twemoji.maxcdn.com/2/svg/1f92e.svg"
+    hjust = 0.5, vjust = 0, image = "https://twemoji.maxcdn.com/2/72x72/1f92e.png"
   ),
   required_aes = c("x", "y")
 )
