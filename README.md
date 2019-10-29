@@ -1,4 +1,10 @@
 
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/karawoo/ggbarf.svg?branch=master)](https://travis-ci.org/karawoo/ggbarf)
+<!-- badges: end -->
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # ggbarf
@@ -18,11 +24,17 @@ devtools::install_github("karawoo/ggbarf")
 ## Example
 
 ``` r
+library("ggbarf")
+#> Loading required package: ggplot2
+#> Loading required package: ggtextures
 set.seed(123)
 dat <- data.frame(x = sample(letters[1:3], 6, replace = TRUE))
 
 ggplot(dat, aes(x)) +
   geom_barf()
+#> Warning: partial match of 'status' to 'status_code'
+
+#> Warning: partial match of 'status' to 'status_code'
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
