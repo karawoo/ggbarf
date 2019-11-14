@@ -32,9 +32,6 @@ dat <- data.frame(x = sample(letters[1:3], 6, replace = TRUE))
 
 ggplot(dat, aes(x)) +
   geom_barf()
-#> Warning: partial match of 'status' to 'status_code'
-
-#> Warning: partial match of 'status' to 'status_code'
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />

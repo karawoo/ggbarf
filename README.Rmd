@@ -27,7 +27,7 @@ write this silly package with approximately zero effort.
 ## Installation
 
 
-``` r
+```{r install, eval = FALSE}
 devtools::install_github("karawoo/ggbarf")
 ```
 
